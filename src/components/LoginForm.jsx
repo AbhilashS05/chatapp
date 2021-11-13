@@ -32,8 +32,7 @@ const LoginForm = () => {
         <h1 className="title">Chat Application</h1>
         <h3 className="wc">Please use this credentials for now</h3>
         <ul className="wc">
-          <li>Username:User1 Password:111111</li>
-          <li>Username:User2 Password:123456</li>
+          <li>Username:User7 Password:123456</li>
         </ul>
         <form onSubmit={handleOnSubmit}>
           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className="input" placeholder="Username" required />
